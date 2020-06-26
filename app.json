@@ -2,5 +2,28 @@
   "pages": [
     "pages/home/home",
     "pages/about/about"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#DE6C84",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "assest/icon/iconfinder_home-house-homepage-resient-address_3209296.png",
+      "selectedIconPath": "assest/icon/iconfinder_Work_home_freelance_job_6054221.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "分类",
+      "iconPath": "assest/icon/fenlei1.png",
+      "selectedIconPath": "assest/icon/fenlei.png"
+    }]
+  }
 }
