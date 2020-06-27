@@ -1,2 +1,9 @@
 <!--pages/home/home.wxml-->
-<view>hello</view>
+<!-- 2. 点击获取用户权限 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserIfon">获取授权</button>
+<!-- 3. 获取用户信息 -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userGender"></open-data>
+
+<view>{{message}}</view>
