@@ -1,0 +1,12 @@
+<!--pages/view/view.wxml-->
+<!-- view块级元素,独占一行 -->
+<view class="hello">Hello</view>
+<view>World</view>
+
+<!-- hover-class -->
+<view class="box1" hover-class="box1_hover" hover-stay-time="{{200}}"></view>
+
+<!-- hover-stop-propagation -->
+<view class="father" hover-class="father_hover" >
+	<view class="son" hover-class="son_hover" hover-stop-propagation="{{true}}"></view>
+</view>

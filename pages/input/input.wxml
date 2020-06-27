@@ -1,0 +1,6 @@
+<!--pages/input/input.wxml-->
+<!-- input属性 -->
+<input class="input" confirm-type="next" maxlength="{{4}}" focus="{{true}}"></input>
+
+<!-- input事件 -->
+<input class="input" bindinput="handleInput" bindblur="handleBlur" bindfocus="handleFocus" bind></input>

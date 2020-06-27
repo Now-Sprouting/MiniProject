@@ -1,0 +1,8 @@
+<!--pages/image/image.wxml-->
+<!-- lazy-load -->
+<!-- bindload -->
+<image wx:for="{{1}}" bindload="handleLoad" lazy-load src="/assets/icon/iconfinder_home-house-homepage-resient-address_3209296.png"></image>
+
+<!-- 从相册选中图片 -->
+<button bindtap="handleChooseImage">上传图片</button>
+<image src="{{imagePath}}"></image>
