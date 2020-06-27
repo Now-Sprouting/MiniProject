@@ -1,0 +1,6 @@
+.btn {
+  width: 160rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: green;
+}

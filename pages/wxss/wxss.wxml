@@ -1,0 +1,8 @@
+<!--pages/wxss/wxss.wxml-->
+<view class="box1"></view>
+<view class="box2"></view>
+
+<text class="content1">Hello</text>
+<text class="content2">Hello</text>
+
+<button class="btn">ckick</button>
