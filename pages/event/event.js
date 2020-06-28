@@ -1,0 +1,25 @@
+Page({
+  data:{
+    stars:['james','curry','kely']
+  },
+  handleTap(event){
+    console.log(event.target.dataset.item);
+    console.log(event.target.dataset.index);
+  },
+  /* --------------------------- */
+  touchStart(){
+    console.log("touchStart");    
+  },
+  touchEnd(){
+    console.log("touchEnd");    
+  },
+  touchMove(){
+    console.log("touchMove");    
+  },
+  tap(){
+    console.log("tap");    
+  },
+  longtap(){
+    console.log("longtap");    
+  }
+})

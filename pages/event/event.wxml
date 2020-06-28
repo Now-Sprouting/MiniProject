@@ -1,0 +1,12 @@
+<!--pages/event/event.wxml-->
+<!-- 常见事件 -->
+<view class="box" 
+      bindtouchstart="touchStart" 
+      bindtouchend="touchEnd" 
+      bindtouchmove="touchMove" 
+      bindtap="tap" 
+      bindlongpress="longtap"></view>
+<!-- 时间传参 -->
+<block>
+<view wx:for="{{stars}}" wx:key="index" bindtap="handleTap" data-item="{{item}}" data-index="{{index}}">{{item}}</view>
+</block>
