@@ -1,0 +1,12 @@
+<!--pages/wxs/wxs.wxml-->
+<wxs src="../../wxs/info.wxs" module="info"/>
+<view>{{info.message}}</view>
+<view>{{info.num}}</view>
+<view>{{info.sum(1,2)}}</view>
+
+
+<text>--------------------------------------------</text>
+<wxs src="../../wxs/format.wxs" module="filter"/>
+<view>{{filter.formatPrise(prise,3)}}</view>
+<view>{{filter.formatDate(1,'yyyy-MM-dd HH:mm:ss')}}</view>
+
