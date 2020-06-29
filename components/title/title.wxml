@@ -1,0 +1,3 @@
+<!--components/title/title.wxml-->
+<text class="title">我是标题</text>
+<text>我是内容</text>

@@ -1,3 +1,12 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "title":"../../components/title/title",
+    "props":"../../components/props/props",
+    "style":"../../components/style/style",
+    "event":"../../components/event/event",
+    "tab-bar":"../../components/tab-bar/tab-bar",
+    "select":"../../components/select/select",
+    "m-slot":"../../components/m-slot/m-slot",
+    "m-slots":"../../components/m-slots/m-slots"
+  }
 }

@@ -1,2 +1,42 @@
 <!--pages/home/home.wxml-->
 <view>hello</view>
+
+<!-- 1. 组件基本使用 -->
+<!-- <title></title> -->
+<!-- 类选择器在 自定义组件 和 pages中是单独存在的不产生影响  如果想相互影响设置styleIsolation属性 -->
+<!-- 组件内不能使用 id 标签 属性选择器 -->
+
+<!-- 2. props传值 -->
+<!-- <props title="哈哈哈"></props>
+<props title="呵呵呵"></props>
+<props></props> -->
+
+<!-- 3. extendClasses传样式 -->
+<!-- <style tilteclass="red"></style>
+<style tilteclass="green"></style>
+<style tilteclass="blue"></style> -->
+
+<!-- 4. 子组件向外传递事件 -->
+<!-- <view>{{num}}</view>
+<event bind:addNum="handleAdd"></event> -->
+
+
+<!-- 案例:tab-bar -->
+<!-- <tab-bar titles="{{['衣服','鞋子','裤子']}}" binditemclick="handleItemclick"></tab-bar> -->
+
+<!-- 5. 在 page 中直接修改组件中的数据 selectComponent -->
+<!-- <select id="select"></select>
+<button bindtap="handleTap">+20</button> -->
+
+<!-- 6. 单插槽 -->
+<!-- <m-slot>
+<button size="mini">我是内容按钮</button>
+</m-slot> -->
+
+<!-- 7.具名多插槽 -->
+<!-- 必须加上这段属性在 m-slot.js 中  multipleSlots:true -->
+<m-slots>
+<view slot="header">我是头部</view>
+<view slot="content">我是内容</view>
+<view slot="footer">我是底部</view>
+</m-slots>
