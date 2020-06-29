@@ -1,2 +1,3 @@
 <!--pages/home/home.wxml-->
-<view>hello</view>
+<button bindtap="handleShowToast" size="mini">showToast</button>
+<button open-type="share" size="mini">分享</button>
