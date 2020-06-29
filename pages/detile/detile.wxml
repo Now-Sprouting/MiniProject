@@ -1,0 +1,3 @@
+<!--pages/detile/detile.wxml-->
+<text>pages/detile/detile.wxml</text>
+<navigator url="../comment/comment">跳转到comment</navigator>

@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
-<view>hello</view>
+<view>home</view>
+<navigator url="/pages/detile/detile">跳转到detile页面</navigator>
+<!-- redirect 关闭当前页面,跳转到应用内某个页面,但不允许跳转到 tab-bar 的页面 -->
+<navigator url="/pages/detile/detile" open-type="redirect">跳转到detile页面(redirect)</navigator>
+<!-- switchTab 跳转到 tab-bar 页面,并关闭其他非 tab-bar 页面 -->
+<navigator url="/pages/about/about" open-type="switchTab">跳转到about页面(switchTab)</navigator>
+<!-- relaunch 关闭所有页面,并跳转到某个页面(可以跳转到 tab-bar页面) -->
+<navigator url="/pages/detile/detile" open-type="reLaunch">跳转到detile页面(reLaunch)</navigator>
+
+
+<view>_________________________________</view>
+
+<!-- 跳转过程中页面之间数据的传递 -->
+<navigator url="../detile/detile?name=shuai&age=19">跳转到 detile 页面并传递数据</navigator>
+<view>{{title}}</view>
+
+<!-- 通过函数实现路由跳转 -->
+<button bind:tap="handlenavigateTo" size="mini">跳转到detile</button>

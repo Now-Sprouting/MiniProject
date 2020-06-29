@@ -1,6 +1,18 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/detile/detile",
+    "pages/comment/comment"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "home"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "about"
+    }]
+  }
 }
